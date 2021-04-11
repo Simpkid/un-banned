@@ -1,5 +1,8 @@
 import requests
+import os
+from os import system
 
+system("title " + "@2L21L1 . UN-BANNED")
 
 solax = """
 ██╗░░░██╗███╗░░██╗░░░░░░██████╗░░█████╗░███╗░░██╗███╗░░██╗███████╗██████╗░
